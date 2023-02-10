@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./aseets/CSS/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body>
+    <main>
+        <div class="countDown">新婚夫婦が
+            <span class="countDownText">
+              <script language="JavaScript">
+                var now = new Date();
+                var point = new Date("2023/09/01");
+                var countdown = Math.ceil((point.getTime() - now.getTime()) / (1000 * 60 * 60 * 24));
+                if (countdown > 0) {
+                  document.write(countdown);
+                }
+              </script>
+        </span>日後にオープンさせる沖縄のゲストハウス</div>
+            <img class="top" src="./aseets/image/head.png" alt="" usemap="#name">
+            <img class="main" src="./aseets/image/main.png" alt="" usemap="#menu1">
+            <map name="menu1">
+                <!-- ゲストハウスについて 228,115,1018,867-->
+                <area shape="rect" coords="100,60,400,350" href="" alt="">
+                <!-- 料金 228,115,1018,867-->
+                <area shape="rect" coords="120,350,350,500" href="./ryokin.html" alt="" />
+                <!-- 私たち -->
+                <area shape="rect" coords="500,300,700,550" href="#" alt="" />
+                <!-- アクセス 120,800,400,800-->
+                <area shape="rect" coords="150,750,400,900" href="#" alt="" />
+                <!-- 予約 -->
+                <area shape="rect" coords="490,700,700,950" href="#" alt="" />
+            </map>
+            <!-- ダイビング -->
+            <map name="sea">
+                <area shape="rect" coords="70,35,350,250" href="#" alt="" />
+            </map>
+            <!-- いんすたリンク -->
+                <div class="last">
+                            <div class="sns">
+                            <a href=""><i class="fab fa-instagram fa-2x color"></i></a>
+                            <a href=""><i class="fab fa-twitter fa-2x color faa-wrench animated"></i></a>
+                            <a href=""><i class="fab fa-facebook-square fa-2x color" ></i></a>
+                            </div>
+
+                        <img class="diving" src="./aseets/image/daiving.png" alt="" usemap="#sea">
+                </div>
+    </main> 
+
+</body>
+<footer>
+    <small>&copy; 2023 CASEone .LLC</small>
+</footer>
+</html>

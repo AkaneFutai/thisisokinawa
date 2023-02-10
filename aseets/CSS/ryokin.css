@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* 上部背景 */
+html, body, #wrap {
+    height: 70%;
+    
+}
+#wrap {
+    position: relative;
+    
+    
+}
+#svg-bg {
+    position: absolute;
+    width: 100%;
+    height:300px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+ 
+/* 固定 */
+    position:fixed;
+    top:0px;
+    
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 40px;
+    /* position:fixed;
+    top:0px; */
+    
+}
+
+
+
+/* 固定メニュー一覧 */
+.menu{
+    position: fixed;
+    /* margin-top: -184px;*/
+	padding-top: -10px; 
+    text-align: right;
+    list-style: none;
+    /* margin-bottom: 1px; */
+    font-size: 18px;
+    letter-spacing: 10px;
+    z-index: 3;
+    
+}
+/* ul.menu{
+   position: relative;
+   top: -10px;
+} */
+
+.menu>li{
+    margin-top: 3px;
+}
+
+.menu > li>a{
+    position: relative;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-top: -350px;
+    margin-left: 1400px;
+	padding: 0px 0 20px 0;
+    color: white;
+
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 3px;
+    z-index: 3;
+    position: fixed;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 3px;
+    
+}
+
+@media screen and (max-width: 480px) {
+    h1{
+        margin: initial;
+        font-size: 20px;
+        margin-left: -30px;
+        margin-top: -22px;    
+        
+    }
+
+    .menu >li> a{
+        margin: initial;
+        width: 300px;
+        position: relative;
+        top: -28px;
+        left: 200px;
+        font-size: 10px;
+ 
+    }
+
+}
+
+#room0>h2 {
+    border-bottom: solid 2px ;
+    width: 61%;
+    font-size: 30px;
+    color: black;
+    padding-top: 240px;
+    margin-left: 340px;
+    letter-spacing: 10px;
+}
+
+#domi0>h2{
+    border-bottom: solid 2px ;
+    width: 61%;
+    font-size: 30px;
+    color: black;
+    padding-top: 240px;
+    margin-left: 340px;
+    letter-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+
+.kositu>img{
+    height: 500px;
+
+}
+.kositu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+.text1{
+    width: 30%;
+    margin: 0 20px 0 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #domi0>h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin: inherit;
+        text-align: center;
+        /* margin-top: 0px; */
+
+    }
+
+    #room0>h2{
+        font-size: 20px;
+        text-align: center;   
+        flex-direction: column;
+        margin: initial;
+    }
+
+    #room0,#domi0{
+        padding: 0 20px 0 20px;
+    }
+    .kositu{
+        /* text-align: center;    */
+        flex-direction: column;
+        /* padding: 0 20px 0 20px; */
+
+    }
+    #domi>.kositu{
+        margin: 0 0 20px 0;
+    }
+    .text1{
+        width: 100%;
+        margin: 0 50px 0 50px;
+        font-size: 12px;
+        text-align: left;
+
+    }
+    .kositu>img{
+        width: 350px;
+        height: 350px;
+        margin-top: 15px;
+    }
+     
+    
+}
+
+.obi{
+    height: 350px;
+    text-align: center;
+    background-color: #c1d8ac;
+    color: gray;
+    margin-top: 20px;
+    opacity:0.8;
+    /* padding: 20px 20px 0 20px; */
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+@media screen and (max-width: 480px) {
+    footer>.obi{
+        flex-direction: column;
+        text-align: center;
+        height: 550px;
+        }
+
+    .map{
+        margin: 25px 0 25px 0;
+
+    }
+    .obi>.info{
+        text-align: center;
+    }
+    .info>li{
+        font-size: 12px;
+        margin: inherit;
+        text-align: center;
+        position: relative;
+        left: 50px;
+    }
+    .sns{
+        text-align: center;
+        position: relative;
+        left: 0px;
+        margin: 30px 0 40px 0;
+    }
+    .info>.sen{
+        border: solid 1px;
+        margin: inherit;
+        margin: 15px 0 15px 0;
+    }
+    }
+
+.map{
+    width: 300px;
+    height: 300px;
+    /* margin: 20px -50px 20px 10px; */
+}
+
+.info,.sns,.sen{
+    position: relative;
+    right: 50px;
+}
+.info{
+    color: #03704f;
+    list-style: none;
+    text-align: left;
+    
+}
+
+
+.sns{
+    z-index: 2;
+    letter-spacing: 10px;
+    /* font-size: 100px; */
+    position: relative;
+    right: 150px;
+}
+
+.my-example{
+    color: #03704f;
+
+}
+
+
+.line{
+    /* padding-top: 20px; */
+    text-align: center;
+}
+
+.line2{
+    text-align: center;
+}
+
+.sen{
+    width: 100%;
+    margin: 20px;
+    border-top: solid 2px;
+    position: relative;
+    right: 20px;
+}
+
+/* 写真スライダー */
+/*画像の横幅を100%にしてレスポンシブ化*/
+img.ga{
+	width: 100%;
+	height: auto;
+    display: flex;    
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
+
+}
+
+
+/*メイン画像下に余白をつける*/
+
+.gallery{
+	margin:100px 150px 5px 150px;
+}
+
+.gallery li{
+list-style:none;
+}
+
+@media screen and (max-width: 480px) {
+    .gallery{
+        margin: inherit;
+        margin-top: 30px;
+        margin: 70px 20px 0 20px;
+        width: 90%;
+    }
+    .choice-btn{
+        margin: inherit;
+        margin: 20px 20px 0 20px;
+        width: 90%;
+ 
+    }
+}
+
+/*矢印の設定*/
+
+/*戻る、次へ矢印の位置*/
+.slick-prev, 
+.slick-next {
+    position: absolute;/*絶対配置にする*/
+	z-index: 1;
+    top: 42%;
+    cursor: pointer;/*マウスカーソルを指マークに*/
+    outline: none;/*クリックをしたら出てくる枠線を消す*/
+    border-top: 2px solid #ccc;/*矢印の色*/
+    border-right: 2px solid #ccc;/*矢印の色*/
+    height: 25px;
+    width: 25px;
+    
+}
+
+.slick-prev {/*戻る矢印の位置と形状*/
+    left:2.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {/*次へ矢印の位置と形状*/
+    right:2.5%;
+    transform: rotate(45deg);
+}
+
+/*選択するサムネイル画像の設定*/
+
+.choice-btn li{
+	cursor: pointer;
+	outline: none;
+	background:#333;
+	width: 32%!important;
+    list-style:none;
+    margin: 0 0 50px 0;
+
+}
+
+.choice-btn li img{
+	opacity: 0.4;/*選択されていないものは透過40%*/
+}
+
+.choice-btn li.slick-current img{
+	opacity: 1;/*選択されているものは透過しない*/
+}
+
+.choice-btn .slick-track {
+	transform: unset !important;/*画面幅サイズ変更に伴うサムネイル固定*/
+}
